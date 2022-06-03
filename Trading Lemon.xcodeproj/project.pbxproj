@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741E1AEE2849FD4B00873F31 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741E1AED2849FD4B00873F31 /* OrderView.swift */; };
+		741E1AF2284A4F9700873F31 /* TitleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741E1AF1284A4F9700873F31 /* TitleDetailView.swift */; };
+		746DB3412847B3B60030C9AF /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746DB3402847B3B60030C9AF /* OrdersView.swift */; };
+		7471FA992847876000E12A70 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471FA982847876000E12A70 /* Quote.swift */; };
+		7471FA9B2847885300E12A70 /* OHLC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471FA9A2847885300E12A70 /* OHLC.swift */; };
+		7473D48227F4792F00A66468 /* Trading_LemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473D48127F4792F00A66468 /* Trading_LemonApp.swift */; };
+		7473D48427F4792F00A66468 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473D48327F4792F00A66468 /* ContentView.swift */; };
+		7473D48627F4792F00A66468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7473D48527F4792F00A66468 /* Assets.xcassets */; };
+		7473D48927F4792F00A66468 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7473D48827F4792F00A66468 /* Preview Assets.xcassets */; };
+		7473D49027F4794000A66468 /* TradingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473D48F27F4794000A66468 /* TradingManager.swift */; };
+		7473D49227F479E900A66468 /* NetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473D49127F479E900A66468 /* NetworkAdapter.swift */; };
+		7473D49427F4801C00A66468 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473D49327F4801C00A66468 /* Account.swift */; };
+		7483CA672845F830003339BE /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483CA662845F830003339BE /* ChartView.swift */; };
+		74F521A728378CED00C8F88B /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521A628378CED00C8F88B /* Instrument.swift */; };
+		74F521A928378D0400C8F88B /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521A828378D0400C8F88B /* Venue.swift */; };
+		74F521AB28379AC600C8F88B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521AA28379AC600C8F88B /* SearchView.swift */; };
+		74F521B12837BE8F00C8F88B /* InstrumentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521B02837BE8F00C8F88B /* InstrumentDetailView.swift */; };
+		74F521B32837C6B000C8F88B /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521B22837C6B000C8F88B /* AccountView.swift */; };
+		74F521B52837C8EC00C8F88B /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521B42837C8EC00C8F88B /* AppConfig.swift */; };
+		74F521B72837CB1A00C8F88B /* WrapperModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521B62837CB1A00C8F88B /* WrapperModels.swift */; };
+		74F521B92837CE5000C8F88B /* SearchResultItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521B82837CE5000C8F88B /* SearchResultItemView.swift */; };
+		74F521BB2837CFD200C8F88B /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521BA2837CFD200C8F88B /* Orders.swift */; };
+		74F521BD2837D0A600C8F88B /* PositionsSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521BC2837D0A600C8F88B /* PositionsSummaryView.swift */; };
+		74F521BF2837D1E900C8F88B /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521BE2837D1E900C8F88B /* Position.swift */; };
+		74F521C12837DBDD00C8F88B /* OrderActivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521C02837DBDD00C8F88B /* OrderActivation.swift */; };
+		74F521C32837DD7000C8F88B /* TradeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521C22837DD7000C8F88B /* TradeContentView.swift */; };
+		74F521C52837DE5800C8F88B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521C42837DE5800C8F88B /* Helpers.swift */; };
+		74F521C72837DF5A00C8F88B /* CustomNumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521C62837DF5A00C8F88B /* CustomNumberInputView.swift */; };
+		74F521C92837EC5000C8F88B /* PositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521C82837EC5000C8F88B /* PositionView.swift */; };
+		74F521D0283CE3D700C8F88B /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F521CF283CE3D700C8F88B /* URLRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		741E1AED2849FD4B00873F31 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		741E1AF1284A4F9700873F31 /* TitleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDetailView.swift; sourceTree = "<group>"; };
+		746DB3402847B3B60030C9AF /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		7471FA982847876000E12A70 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		7471FA9A2847885300E12A70 /* OHLC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OHLC.swift; sourceTree = "<group>"; };
+		7473D47E27F4792F00A66468 /* Trading Lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trading Lemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7473D48127F4792F00A66468 /* Trading_LemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trading_LemonApp.swift; sourceTree = "<group>"; };
+		7473D48327F4792F00A66468 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7473D48527F4792F00A66468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7473D48827F4792F00A66468 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7473D48F27F4794000A66468 /* TradingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingManager.swift; sourceTree = "<group>"; };
+		7473D49127F479E900A66468 /* NetworkAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAdapter.swift; sourceTree = "<group>"; };
+		7473D49327F4801C00A66468 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		7483CA662845F830003339BE /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		748B821728579A8200C26008 /* Trading-Lemon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Trading-Lemon-Info.plist"; sourceTree = SOURCE_ROOT; };
+		74F521A628378CED00C8F88B /* Instrument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
+		74F521A828378D0400C8F88B /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		74F521AA28379AC600C8F88B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		74F521B02837BE8F00C8F88B /* InstrumentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentDetailView.swift; sourceTree = "<group>"; };
+		74F521B22837C6B000C8F88B /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		74F521B42837C8EC00C8F88B /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		74F521B62837CB1A00C8F88B /* WrapperModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperModels.swift; sourceTree = "<group>"; };
+		74F521B82837CE5000C8F88B /* SearchResultItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultItemView.swift; sourceTree = "<group>"; };
+		74F521BA2837CFD200C8F88B /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		74F521BC2837D0A600C8F88B /* PositionsSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionsSummaryView.swift; sourceTree = "<group>"; };
+		74F521BE2837D1E900C8F88B /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		74F521C02837DBDD00C8F88B /* OrderActivation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderActivation.swift; sourceTree = "<group>"; };
+		74F521C22837DD7000C8F88B /* TradeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeContentView.swift; sourceTree = "<group>"; };
+		74F521C42837DE5800C8F88B /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		74F521C62837DF5A00C8F88B /* CustomNumberInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNumberInputView.swift; sourceTree = "<group>"; };
+		74F521C82837EC5000C8F88B /* PositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionView.swift; sourceTree = "<group>"; };
+		74F521CF283CE3D700C8F88B /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7473D47B27F4792F00A66468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7473D47527F4792E00A66468 = {
+			isa = PBXGroup;
+			children = (
+				7473D48027F4792F00A66468 /* Trading Lemon */,
+				7473D47F27F4792F00A66468 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7473D47F27F4792F00A66468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7473D47E27F4792F00A66468 /* Trading Lemon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7473D48027F4792F00A66468 /* Trading Lemon */ = {
+			isa = PBXGroup;
+			children = (
+				748B821728579A8200C26008 /* Trading-Lemon-Info.plist */,
+				7473D48127F4792F00A66468 /* Trading_LemonApp.swift */,
+				7473D48327F4792F00A66468 /* ContentView.swift */,
+				748B8212285783B500C26008 /* Account */,
+				748B8213285783BE00C26008 /* Search */,
+				748B8214285783D600C26008 /* Detail */,
+				748B8216285783EC00C26008 /* Trading */,
+				748B8215285783E200C26008 /* Orders */,
+				7473D49527F4803400A66468 /* Models */,
+				7473D49627F4804100A66468 /* Network */,
+				74F521B42837C8EC00C8F88B /* AppConfig.swift */,
+				74F521C42837DE5800C8F88B /* Helpers.swift */,
+				7473D48727F4792F00A66468 /* Preview Content */,
+				7473D48527F4792F00A66468 /* Assets.xcassets */,
+			);
+			path = "Trading Lemon";
+			sourceTree = "<group>";
+		};
+		7473D48727F4792F00A66468 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7473D48827F4792F00A66468 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7473D49527F4803400A66468 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74F521B62837CB1A00C8F88B /* WrapperModels.swift */,
+				7473D49327F4801C00A66468 /* Account.swift */,
+				74F521A628378CED00C8F88B /* Instrument.swift */,
+				74F521A828378D0400C8F88B /* Venue.swift */,
+				74F521BA2837CFD200C8F88B /* Orders.swift */,
+				74F521BE2837D1E900C8F88B /* Position.swift */,
+				74F521C02837DBDD00C8F88B /* OrderActivation.swift */,
+				7471FA982847876000E12A70 /* Quote.swift */,
+				7471FA9A2847885300E12A70 /* OHLC.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7473D49627F4804100A66468 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7473D48F27F4794000A66468 /* TradingManager.swift */,
+				7473D49127F479E900A66468 /* NetworkAdapter.swift */,
+				74F521CF283CE3D700C8F88B /* URLRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		748B8212285783B500C26008 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				74F521B22837C6B000C8F88B /* AccountView.swift */,
+				74F521BC2837D0A600C8F88B /* PositionsSummaryView.swift */,
+				74F521C82837EC5000C8F88B /* PositionView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		748B8213285783BE00C26008 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				74F521AA28379AC600C8F88B /* SearchView.swift */,
+				74F521B82837CE5000C8F88B /* SearchResultItemView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		748B8214285783D600C26008 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				74F521B02837BE8F00C8F88B /* InstrumentDetailView.swift */,
+				7483CA662845F830003339BE /* ChartView.swift */,
+				741E1AF1284A4F9700873F31 /* TitleDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		748B8215285783E200C26008 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				746DB3402847B3B60030C9AF /* OrdersView.swift */,
+				741E1AED2849FD4B00873F31 /* OrderView.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		748B8216285783EC00C26008 /* Trading */ = {
+			isa = PBXGroup;
+			children = (
+				74F521C22837DD7000C8F88B /* TradeContentView.swift */,
+				74F521C62837DF5A00C8F88B /* CustomNumberInputView.swift */,
+			);
+			path = Trading;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7473D47D27F4792F00A66468 /* Trading Lemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7473D48C27F4792F00A66468 /* Build configuration list for PBXNativeTarget "Trading Lemon" */;
+			buildPhases = (
+				7473D47A27F4792F00A66468 /* Sources */,
+				7473D47B27F4792F00A66468 /* Frameworks */,
+				7473D47C27F4792F00A66468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trading Lemon";
+			packageProductDependencies = (
+			);
+			productName = "Trading Lemon";
+			productReference = 7473D47E27F4792F00A66468 /* Trading Lemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7473D47627F4792E00A66468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7473D47D27F4792F00A66468 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 7473D47927F4792E00A66468 /* Build configuration list for PBXProject "Trading Lemon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7473D47527F4792E00A66468;
+			packageReferences = (
+			);
+			productRefGroup = 7473D47F27F4792F00A66468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7473D47D27F4792F00A66468 /* Trading Lemon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7473D47C27F4792F00A66468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7473D48927F4792F00A66468 /* Preview Assets.xcassets in Resources */,
+				7473D48627F4792F00A66468 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7473D47A27F4792F00A66468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7473D49427F4801C00A66468 /* Account.swift in Sources */,
+				74F521C52837DE5800C8F88B /* Helpers.swift in Sources */,
+				74F521C12837DBDD00C8F88B /* OrderActivation.swift in Sources */,
+				74F521B72837CB1A00C8F88B /* WrapperModels.swift in Sources */,
+				7471FA992847876000E12A70 /* Quote.swift in Sources */,
+				7473D48427F4792F00A66468 /* ContentView.swift in Sources */,
+				7473D48227F4792F00A66468 /* Trading_LemonApp.swift in Sources */,
+				7483CA672845F830003339BE /* ChartView.swift in Sources */,
+				74F521B32837C6B000C8F88B /* AccountView.swift in Sources */,
+				74F521D0283CE3D700C8F88B /* URLRequest.swift in Sources */,
+				74F521B92837CE5000C8F88B /* SearchResultItemView.swift in Sources */,
+				74F521C32837DD7000C8F88B /* TradeContentView.swift in Sources */,
+				74F521A928378D0400C8F88B /* Venue.swift in Sources */,
+				74F521AB28379AC600C8F88B /* SearchView.swift in Sources */,
+				74F521BB2837CFD200C8F88B /* Orders.swift in Sources */,
+				74F521B12837BE8F00C8F88B /* InstrumentDetailView.swift in Sources */,
+				7473D49227F479E900A66468 /* NetworkAdapter.swift in Sources */,
+				74F521BD2837D0A600C8F88B /* PositionsSummaryView.swift in Sources */,
+				74F521B52837C8EC00C8F88B /* AppConfig.swift in Sources */,
+				74F521A728378CED00C8F88B /* Instrument.swift in Sources */,
+				7471FA9B2847885300E12A70 /* OHLC.swift in Sources */,
+				746DB3412847B3B60030C9AF /* OrdersView.swift in Sources */,
+				74F521C72837DF5A00C8F88B /* CustomNumberInputView.swift in Sources */,
+				74F521BF2837D1E900C8F88B /* Position.swift in Sources */,
+				741E1AF2284A4F9700873F31 /* TitleDetailView.swift in Sources */,
+				741E1AEE2849FD4B00873F31 /* OrderView.swift in Sources */,
+				7473D49027F4794000A66468 /* TradingManager.swift in Sources */,
+				74F521C92837EC5000C8F88B /* PositionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7473D48A27F4792F00A66468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7473D48B27F4792F00A66468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7473D48D27F4792F00A66468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trading Lemon/Preview Content\"";
+				DEVELOPMENT_TEAM = 7HFRDKKUCK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trading-Lemon-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kchromik.Trading-Lemon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7473D48E27F4792F00A66468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trading Lemon/Preview Content\"";
+				DEVELOPMENT_TEAM = 7HFRDKKUCK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trading-Lemon-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kchromik.Trading-Lemon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7473D47927F4792E00A66468 /* Build configuration list for PBXProject "Trading Lemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7473D48A27F4792F00A66468 /* Debug */,
+				7473D48B27F4792F00A66468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7473D48C27F4792F00A66468 /* Build configuration list for PBXNativeTarget "Trading Lemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7473D48D27F4792F00A66468 /* Debug */,
+				7473D48E27F4792F00A66468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7473D47627F4792E00A66468 /* Project object */;
+}
