@@ -1,6 +1,6 @@
 # Trading-Lemon
 
-Dieses iOS Project is eine Trading App zu folgendem YouTube Video:
+Dieses iOS Projekt is eine Trading App zu folgendem YouTube Video:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/QBGYE9eHHdQ/0.jpg)](https://www.youtube.com/watch?v=QBGYE9eHHdQ)
 
